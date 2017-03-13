@@ -4,10 +4,14 @@ This forms the baseline architecture of an npm package that will allow you to in
 
 ## Pre-requisites
 Ensure that you have signed-up for an [NPM account](https://www.npmjs.com/).
-Create a folder in the root of your application called 'dist'. This folder will contain the code once Babel has transpiled it. Code within this directory is used by applications that have installed your package using the ```npm install``` command.
 
 ## Instructions
-Download the source code and use it as a starting point. 
+
+ 1. Download the source code and use it as a starting point. 
+ 2. Create a folder in the root of your application called 'dist'. This folder
+    will contain the code once Babel has transpiled it. Code within this
+    directory is used by applications that have installed your package
+    using the ```npm install``` command.
 
 ## Information
 Below are descriptions of each of the files included in this repository and their function.
