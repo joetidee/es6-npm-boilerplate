@@ -1,0 +1,29 @@
+{
+  "name": "es6-npm-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap NPM package using Babel",
+  "main": "./dist/app.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joetidee/es6-npm-bootstrap.git"
+  },
+  "keywords": [
+    "ES6",
+    "npm",
+    "bootstrap"
+  ],
+  "author": "Joe Privett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joetidee/es6-npm-bootstrap/issues"
+  },
+  "homepage": "https://github.com/joetidee/es6-npm-bootstrap#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  }
+}
