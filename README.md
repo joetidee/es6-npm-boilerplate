@@ -16,20 +16,15 @@ Ensure that you have signed-up for an [NPM account](https://www.npmjs.com/).
 ## Information
 Below are descriptions of each of the files included in this repository and their function.
 
-**src**
-This is the folder in which you place your application code.
+**src** : This is the folder in which you place your application code.
 
-**.babelrc**
-When you publish your npm package, Babel will detect this file and use the instructions within it to perform specific tasks. In our case, this file only contains one 'preset'. This preset instructs Babel that we will be using ES2015 (ES6) syntax in our code and that Babel should transpile it into ES5 code.
+**.babelrc** : When you publish your npm package, Babel will detect this file and use the instructions within it to perform specific tasks. In our case, this file only contains one 'preset'. This preset instructs Babel that we will be using ES2015 (ES6) syntax in our code and that Babel should transpile it into ES5 code.
 
-**.gitignore**
-Contains a list of files/folders that GIT should ignore when pushing this codebase to your GIT repository.
+**.gitignore** : Contains a list of files/folders that GIT should ignore when pushing this codebase to your GIT repository.
 
-**.npmignore**
-Contains a list of files/folders that NPM should NOT publish to your NPM repository.
+**.npmignore** : Contains a list of files/folders that NPM should NOT publish to your NPM repository.
 
-**package.json**
-Contains meta data about your application or module
+**package.json** : Contains meta data about your application or module
 
 ## Publishing your package to NPM:
 Publishing your npm package is as easy as running this command:
