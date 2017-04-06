@@ -1,4 +1,4 @@
-# es6-npm-bootstrap
+# es6-npm-boilerplate
 
 This forms the baseline architecture for building an NPM package that might include code written using ES2015 (ES6) syntax. When publishing your module, your code will automatically be transpiled by Babel so that it can be consumed by the end user in their application.
 
